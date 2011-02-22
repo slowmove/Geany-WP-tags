@@ -1,0 +1,161 @@
+# format=pipe
+# PHP tags for the Wordpress content management platform, created by Erik Johansson <erik.johansson87(at)gmail(dot)com>
+# Based on http://codex.wordpress.org/Template_Tags
+comments_template|Wordpress function -|(optional string $file, optional string $separate_comments)|
+get_footer|Wordpress function to include the footer.php -|(optional string $name)|
+get_header|Wordpress function to include the header.php -|(optional string $name)|
+get_search_form|Wordpress function to create an, by Wordpress, already defined standard search form -|()|
+get_sidebar|Wordpress function to include the sidebar.php -|(optional string $name)|
+get_template_part|Wordpress function -|(string $slug, optional string $name)|
+bloginfo|Wordpress function to print info about the blog such as the url and the template url -|(string $arg)|
+bloginfo_rss|Wordpress function -|(string $arg)|
+get_bloginfo|Wordpress function to get info about the blog such as the url and the template url -|(string $arg)|
+get_bloginfo_rss|Wordpress function -|(string $arg)|
+wp_dropdown_categories|Wordpress function -|(optional string/array $args)|
+wp_dropdown_pages|Wordpress function -|(optional string/array $args)|
+wp_dropdown_users|Wordpress function -|(optional string/array $args)|
+wp_get_archives|Wordpress function -|(optional string/array $args)|
+wp_list_authors|Wordpress function to list all the authors (incl. admins) on the site -|(optional string/array $args)|
+wp_list_bookmarks|Wordpress function -|(optional string/array $args)|
+wp_list_categories|Wordpress function -|(optional string/array $args)|
+wp_list_comments|Wordpress function -|(optional string/array $args)|
+wp_list_pages|Wordpress function to list all pages -|(optional string/array $args)|
+wp_page_menu|Wordpress function -|(optional string/array $args)|
+is_user_logged_in|Wordpress function to check if the user is logged in -|()|
+wp_login_form|Wordpress function to show a login form -|(optional string/array $args)|
+wp_login_url|Wordpress function -|(optional string $redirect)|
+wp_loginout|Wordpress function -|(optional string $redirect)|
+wp_logout|Wordpress function to log out the current user -|()|
+wp_logout_url|Wordpress function -|(optional string $redirect)|
+wp_lostpassword_url|Wordpress function -|(optional string $redirect)|
+wp_register|Wordpress function -|(optional string $before, optional string $after, optional boolean $echo)|
+wp_registration_url|Wordpress function -|(optional string $redirect)|
+body_class|Wordpress function to set a class on body depending on variables accessible in Wordpress -|(wp-variable $class)|
+next_image_link|Wordpress function to link to the next image in the post -|(optional string $size, optional string $text)|
+next_post_link|Wordpress function to link to the next post -|(optional string $format, optional string $text, optional boolean $same_category, optional string $exclude_category)|
+next_posts_link|Wordpress function to link to the next set of posts -|(optional string $text, optional integer $max_pages)|
+post_class|Wordpress function to set a class on the post container depending on variables accessible in Wordpress -|(wp-variable $class)|
+post_password_required|Wordpress function to require password to see a post -|(boolean $arg)|
+posts_nav_link|Wordpress function to print a navigation (previous & next post) -|(string $separator, string $prelabel, string $nextlabel)|
+previous_image_link|Wordpress function -|(optional string $size, optional string $text)|
+previous_post_link|Wordpress function -|(optional string $format, optional string $text, optional boolean $same_category, optional string $exclude_category)|
+previous_posts_link|Wordpress function -|(optional string $text, optional integer $max_pages)|
+single_post_title|Wordpress function -|(optional string $prefix, optional boolean $display)|
+sticky_class|Wordpress function -|()|
+the_category|Wordpress function to get the category for a post -|(string $separator, string $parents, optional integer $post_id)|
+the_category_rss|Wordpress function -|(optional string $rss_or_atom)|
+the_content|Wordpress function to print the content of the current page or post -|()|
+the_content_rss|Wordpress function -|(optional string $more_link_text, optional boolean $stripteaser, optional string $more_file, optional integer $cut, optional integer $encode_html)|
+the_excerpt|Wordpress function to print an excerpt of the content on the current page or post -|()|
+the_excerpt_rss|Wordpress function -|()|
+the_ID|Wordpress function to print the ID for the current page or post -|()|
+the_meta|Wordpress function to print the meta on the current page or post -|()|
+the_shortlink|Wordpress function -|(optional string $text, optional string $tooltip, optional string $before, optional string $after)|
+the_tags|Wordpress function to print all the tags on the current page or post -|(string $before, string $separator, string $after)|
+the_title|Wordpress function to prihnt the title of the current page or post -|(optional string $before, optional string $after, optional boolean $echo)|
+the_title_attribute|Wordpress function -|(string $args)|
+the_title_rss|Wordpress function -|(string $args)|
+wp_link_pages|Wordpress function -|()|
+cancel_comment_reply_link|Wordpress function -|(string $text)|
+comment_author|Wordpress function -|(optional integer $comment_ID)|
+comment_author_email|Wordpress function -|(optional integer $comment_ID)|
+comment_author_email_link|Wordpress function -|(string $text, string $before, string $after)|
+comment_author_IP|Wordpress function -|(optional integer $comment_ID)|
+comment_author_link|Wordpress function -|(optional integer $comment_ID)|
+comment_author_rss|Wordpress function -|()|
+comment_author_url|Wordpress function -|(optional integer $comment_ID)|
+comment_author_url_link|Wordpress function -|(string $text, string $before, string $after)|
+comment_class|Wordpress function -|(string $class)|
+comment_date|Wordpress function -|(optional string $dateformat, optional integer $comment_ID)|
+comment_excerpt|Wordpress function -|(optional integer $comment_ID)|
+comment_form_title|Wordpress function -|(optional string $noreplytext, optional string $replytext, optional boolean $linktoparent)|
+comment_form|Wordpress function -|(optional array $args, optional integer $post_id)|
+comment_ID|Wordpress function -|()|
+comment_id_fields|Wordpress function -|()|
+comment_reply_link|Wordpress function -|(optional array $args, optional integer $comment_id, optional integer $post_id)|
+comment_text|Wordpress function -|(optional integer $comment_ID)|
+comment_text_rss|Wordpress function -|()|
+comment_time|Wordpress function -|(string $dateformat)|
+comment_type|Wordpress function -|(string $comment, string $trackback, string $pingback)|
+comments_link|Wordpress function -|(string $zero_text, string $one_text, string $more_text)|
+comments_number|Wordpress function -|()|
+comments_popup_link|Wordpress function -|(string $zero_text, string $one_text, string $more_text, string $cssclass, string $none_text)|
+comments_popup_script|Wordpress function -|(integer $width, integer $height, optional string $filename)|
+comments_rss_link|Wordpress function -|(string $linktext, string $filename)|
+get_avatar|Wordpress function to get the avatar for a specified user -|(string $id_or_email, integer $size, optional string $imageurl, optional string $alttext)|
+next_comments_link|Wordpress function -|(string $text, optional integer $max_page)|
+paginate_comments_links|Wordpress function -|(optional string/array $args)|
+permalink_comments_rss|Wordpress function -|()|
+previous_comments_link|Wordpress function -|(optional string $label)|
+wp_list_comments|Wordpress function -|(optional array $args)|
+get_post_thumbnail_id|Wordpress function to get the id for the thumbnail on a specified post -|(integer $post_id)|
+get_the_post_thumbnail|Wordpress function to get the thumbnail for a specified post -|(integer $post_id, optional array $size, optional string $attr)|
+has_post_thumbnail|Wordpress function to check if a post has a thumbnail -|(string $post_id)|
+the_post_thumbnail|Wordpress function to print the thumbnail for the current post -|(optional array $size, optional array $attr)|
+get_attachment_link|Wordpress function to get the link to a specified attachment -|(integer $attachment_id)|
+is_attachment|Wordpress function -|()|
+the_attachment_link|Wordpress function to print the link to a specified attachment -|(optional integer $attachment_id, boolean $fullsize, boolean $permalink)|
+wp_attachment_is_image|Wordpress function to check if a post attachment is an image or not -|(integer $post_id)|
+wp_get_attachment_image|Wordpress function -|(integer $attachment_id, optional string/array $size, boolean $mediaicon)|
+wp_get_attachment_image_src|Wordpress function -|(integer $attachment_id, optional string/array $size, boolean $mediaicon)|
+wp_get_attachment_metadata|Wordpress function -|(integer $post_id, optional boolean $unfiltered)|
+category_description|Wordpress function to get the description for a specified category -|(optional integer $category_id)|
+single_cat_title|Wordpress function to print the title of the current category -|(optional string $prefix, optional boolean $display)|
+the_category|Wordpress function to print the category which the current page or post belong to -|(string $separator, optional string $parents, optional integer $post_id)|
+the_category_rss|Wordpress function -|(optional string $rss_or_atom)|
+wp_dropdown_categories|Wordpress function -|(array $args)|
+wp_list_categories|Wordpress function to list all the categories on the site -|(array $args)|
+single_tag_title|Wordpress function -|(optional string $prefix, optional boolean $display)|
+tag_description|Wordpress function -|(optional string $tag_id)|
+the_tags|Wordpress function to print all the tags on the current page or post -|(optional string $before, optional string $separator, optional string $after)|
+wp_generate_tag_cloud|Wordpress function to generate a tag cloud -|(array $args)|
+wp_tag_cloud|Wordpress function to print a tag cloud -|(array $args)|
+the_author|Wordpress function to print the author of the current page or post -|()|
+get_the_author|Wordpress function to get the author of the current page or post -|()|
+the_author_link|Wordpress function to print the link to the "author page" which holds all the posts created by the author of the current page or post -|()|
+get_the_author_link|Wordpress function to get the link to the "author page" which holds all the posts created by the author of the current page or post -|()|
+the_author_meta|Wordpress function to print all the meta info for the specified author -|(string $field, integer $user_id)|
+the_author_posts|Wordpress function -|()|
+the_author_posts_link|Wordpress function -|()|
+wp_dropdown_users|Wordpress function -|(array $args)|
+wp_list_authors|Wordpress function -|(array $args)|
+get_calendar|Wordpress function -|(boolean $initial_letter_only)|
+get_the_date|Wordpress function -|(string $dateformat)|
+single_month_title|Wordpress function -|(string $prefix, string $display)|
+the_date|Wordpress function -|(optional string $dateformat, optional string $before, optional string $after, optional boolean $echo)|
+the_date_xml|Wordpress function -|()|
+the_modified_author|Wordpress function -|()|
+the_modified_date|Wordpress function -|(optional string $dateformat, optional string $before, optional string $after, optional boolean $echo)|
+the_modified_time|Wordpress function -|(optional string $dateformat)|
+the_time|Wordpress function to print the time when the current page or post where created -|(optional string $dateformat)|
+get_permalink|Wordpress function to get the link for the current page or post -|(optional integer $post_id)|
+get_post_permalink|Wordpress function -|(optional integer $post_id, optional boolean $leavename, optional boolean $sample_permalink)|
+permalink_anchor|Wordpress function -|(string $type)|
+permalink_single_rss|Wordpress function -|(optional string $filename)|
+post_permalink|Wordpress function -|()|
+the_permalink|Wordpress function to print the link url for the current page or post -|()|
+the_shortlink|Wordpress function -|(optional string $text, optional string $tooltip, optional string $before, optional string $after)|
+wp_get_shortlink|Wordpress function -|()|
+wp_shortlink_header|Wordpress function -|()|
+wp_shortlink_wp_head|Wordpress function -|()|
+get_bookmark|Wordpress function -|($bookmark, optional string $output, optional string $filter)|
+get_bookmark_field|Wordpress function -|()|
+get_bookmarks|Wordpress function -|(array $args)|
+wp_list_bookmarks|Wordpress function -|(array $args)|
+edit_bookmark_link|Wordpress function -|(optional string $linktext, optional string $before, optional string $after, optional integer $bookmark)|
+edit_comment_link|Wordpress function -|(optional string $linktext, optional string $before optional string $after)|
+edit_post_link|Wordpress function -|(optional string $linktext, optional string $before, optional string $after, optional integer $post_id)|
+edit_tag_link|Wordpress function -|(optional string $linktext, optional string $before, optional string $after, optional integer $tag_id)|
+single_cat_title|Wordpress function -|(optional string $prefix, optional boolean $display)|
+single_month_title|Wordpress function -|(optional string $prefix, optional boolean $display)|
+single_post_title|Wordpress function -|(optional string $prefix, optional boolean $display)|
+single_tag_title|Wordpress function -|(optional string $prefix, optional boolean $display)|
+the_search_query|Wordpress function -|()|
+wp_title|Wordpress function -|(optional string $separator, optional boolean $echo, optional string $seplocation_left_or_right)|
+get_posts|Wordpress function -|(string $arguments)|
+query_posts|Wordpress function to query posts from the DB depending on several specified arguments -|(string $arguments)|
+rewind_posts|Wordpress function -|()|
+wp_reset_query|Wordpress function to reset a query that you've created -|()|
+wp_get_nav_menu|Wordpress function -|()|
+wp_get_nav_menu_item|Wordpress function -|()|
+wp_nav_menu|Wordpress function to implement a menu that can be administrated within Wordpress administration area -|(array $args)|
